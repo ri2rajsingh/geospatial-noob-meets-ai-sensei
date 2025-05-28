@@ -87,13 +87,13 @@ cd case-studies/01-brick-kiln-detection/
 
 ## LLM Performance Comparison
 
-| Model | Code Quality | Debugging | GEE Knowledge | Overall |
-|-------|-------------|-----------|---------------|---------|
-| **Grok** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **Best** |
-| Claude | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Excellent |
-| Gemini | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | Surprising gaps |
+| Model | Code Quality | Debugging | GEE Knowledge | Result | Overall |
+|-------|-------------|-----------|---------------|---------|---------|
+| **Grok** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ✅ Worked immediately | **Best** |
+| Claude | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⚠️ Minor fixes needed | Good |
+| Gemini | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ❌ Multiple errors | Disappointing |
 
-*Detailed analysis in [docs/llm-comparison.md](docs/llm-comparison.md)*
+*Detailed comparison in [llm-comparison/](case-studies/01-brick-kiln-detection/llm-comparison/)*
 
 ## Proven Prompt Templates
 
